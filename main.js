@@ -180,7 +180,7 @@ page.onCallback = function(data) {
   else {
     resp.statusCode = 400;    // bad request
     resp.write(svg_or_error[0]);
-    console.log(num, src.substr(0, 30) + '.. ' +
+    console.log(num, src  +
         src.length + 'B query, error: ' + svg_or_error[0] + duration_msg);
   }
   resp.close();
