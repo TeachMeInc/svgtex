@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 fonts=("TeX" "STIX-Web" "Asana-Math" "Neo-Euler" "Gyre-Pagella" "Gyre-Termes" "Latin-Modern");
 
